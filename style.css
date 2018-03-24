@@ -1,0 +1,71 @@
+body { 
+    
+    background: url("superboulange.jpg") no-repeat center center fixed ;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ .header {
+
+    height: 720px;
+    width: 1900;
+
+ }
+   
+
+
+
+a{
+    text-decoration: none;
+    color: orange;
+        text-transform: uppercase;
+    font-size : 20px;
+    line-height: 13px;
+    transition: color .3s ease;
+  
+}
+   
+   a:hover {
+       color: black;
+   }
+
+
+
+
+
+.mainNavigation {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+   
+
+}
+
+.headertitle {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: orange;
+    font-style: italic;
+}
+
+.Listcontainer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    
+}
+
+.listItem {
+    display: flex;
+    margin-right: 30px;
+    
+}
+
+.Listitem-link {
+    color: grey;
+    text-transform: uppercase;
+}
+
