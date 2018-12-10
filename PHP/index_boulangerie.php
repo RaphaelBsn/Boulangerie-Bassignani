@@ -20,15 +20,14 @@
     <div class="row">
         <div class="col-md-2">
             <nav class="nav flex-column" id="navbar">
-                <a class="nav-link active" href="#">Active</a>
-                <a class="nav-link" href="#">Link</a>
-                <a class="nav-link" href="#">Link</a>
-                <a class="nav-link disabled" href="#">Disabled</a>
+                <a class="nav-link active" href="#intro">Introduction</a> <br>
+                <a class="nav-link" href="#produits">Produits</a> <br>
+                <a class="nav-link disabled" href="#contact">Contacts</a>
             </nav>
         </div>
         <div class="col-md-10" style="padding: 2%;">
             <article>
-                <header> <h1><a href="#">#</a> Introduction </h1></header><hr>
+                <header> <h1><a href="#" id="intro">#</a> Introduction </h1></header><hr>
                 <p>
                     <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id non ducimus commodi atque illum maiores soluta iure unde saepe, eveniet nesciunt aliquam corrupti numquam natus necessitatibus similique culpa, sint deserunt.</span>
                     <span>Officiis, veritatis. Incidunt quos temporibus necessitatibus et repudiandae harum architecto consequatur id fuga pariatur, vel minus distinctio repellendus, ducimus autem facilis non, veniam deserunt. Eligendi modi rerum cumque quo libero.</span>
@@ -36,9 +35,9 @@
                     <span>Quisquam nemo rerum nihil error commodi nulla quam sunt vitae totam delectus ipsam placeat nostrum cumque, praesentium velit possimus minima consequatur repellat cupiditate, omnis eaque. Aut eveniet ullam quas est?</span>
                     <span>Commodi vel iste adipisci, officiis porro deserunt. Hic quidem velit recusandae tempore commodi quod ipsam sed quisquam beatae porro! Quidem enim rem officiis praesentium! Perferendis quisquam molestias consectetur fugiat velit.</span>
                 </p>
-            </article>
+            </article> <br>
             <article>
-                <header><h1>Produits</h1></header> <hr>
+                <header> <h1><a href="#" id="produits">#</a> Produits</h1></header> <hr>
                 <p>
                     <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium animi debitis laboriosam cumque! Excepturi obcaecati, beatae, iste tenetur et nemo blanditiis ut odio minus eligendi libero laborum necessitatibus ab porro?</span>
                     <span>Distinctio sit nam perferendis, minus voluptate magni, dolores pariatur possimus expedita fugit ut non quos corporis molestiae voluptatibus cumque et repellendus, quidem assumenda quas quaerat vero! Qui in sint suscipit.</span>
@@ -46,16 +45,32 @@
                     <span>Error qui asperiores quos vitae sapiente earum, eveniet alias dolorum accusamus ullam at ducimus voluptates voluptatibus delectus totam! Blanditiis vitae nulla cupiditate, repudiandae eos molestiae enim at sapiente quisquam repellendus?</span>
                     <span>Eveniet quas sunt deleniti enim repudiandae tempora. Nostrum odio tempora voluptates, eius natus ratione ut deserunt cum veniam doloremque officiis aperiam dignissimos explicabo praesentium sapiente facilis, facere, ipsam quasi fuga!</span>
                 </p>
-            </article>
+            </article> <br>
             <article>
-                <header> <h1>Contacts </h1> </header> <hr>
-                <p>
-                    <span>Ipsum facilis laudantium fuga odit cupiditate libero impedit mollitia totam vero dolores ipsa recusandae reiciendis similique ratione nisi, corporis nam repudiandae voluptates sapiente. Quos beatae nemo dolorum, praesentium iste id!</span>
-                    <span>Alias tempora quasi dolorum fugiat repellendus modi consequatur dolores velit! Quo ipsa laboriosam rerum veritatis maxime quos perspiciatis ex omnis pariatur, eos blanditiis. Aliquam accusamus repellendus ut obcaecati architecto expedita.</span>
-                    <span>Omnis soluta enim, non neque dolores quaerat! Aspernatur harum quisquam, vero eaque, iure officia ab commodi perspiciatis reiciendis fugit illum optio. Quae veniam amet, repellendus repellat ducimus inventore nisi? Quibusdam.</span>
-                    <span>Similique, placeat dolore? Earum necessitatibus error pariatur nihil nesciunt amet dolorem iusto, quas, enim dolores corporis saepe nostrum eius asperiores perferendis molestiae ipsa odio voluptatum, natus molestias non. Nostrum, aliquid.</span>
-                    <span>Placeat voluptatibus natus provident magnam eum officiis sunt eos rerum voluptates beatae deleniti ullam ratione, culpa nostrum esse neque qui laboriosam earum et eaque perferendis fugit explicabo! Commodi, debitis architecto!</span>
-                </p>
+                <header> <h1><a href="#" id="contact">#</a> Contacts </h1> </header> <hr>
+                <div class="row">
+                    <div class="col">
+                        <div class="card" style="width: 20rem;">
+                            <img class="card-img-top" src="../IMG/enseigne.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Boulangerie Bassignani</h5>
+                                <p class="card-text">Adresse : </p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Horaires : #Menu déroulant date par jours à venir </li>
+                                <li class="list-group-item">Téléphone : 01 64 96 28 58</li>
+                                <li class="list-group-item">Vestibulum at eros</li>
+                            </ul>
+                            <!-- <div class="card-body">
+                                <a href="#" class="card-link">Card link</a>
+                                <a href="#" class="card-link">Another link</a>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="col">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d697.168229227168!2d2.4668797276682577!3d48.60515263154661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e5e7304bd142c5%3A0x77011e314fd3a031!2sBoulangerie+Bassignani!5e0!3m2!1sfr!2sfr!4v1544459764518" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
             </article>  
         </div>
 
