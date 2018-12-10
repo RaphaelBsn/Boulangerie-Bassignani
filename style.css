@@ -1,0 +1,76 @@
+@font-face {
+	font-family: "Bassignani";
+	src: url('Font/Miraculous&Christmas.ttf');
+}
+
+@font-face {
+	font-family: "valentine";
+	src: url('Font/valentine.ttf');
+}
+
+body,html {
+    height: 100%;
+}
+
+.front .col-md-4 {
+    border: 2px solid rgb(255, 231, 221);
+    text-align: center;
+}
+
+.boulangerie_slot {
+    background-image: linear-gradient(rgb(245, 191, 140),rgb(117, 53, 0));
+    color: whitesmoke;
+}
+.boulangerie_slot article, .vieinoiserie_slot article, .patisserie_slot article {
+    margin-top: 50vh;
+    transform: translateY(-50%);
+}
+
+.patisserie_slot {
+    background-image: linear-gradient(rgb(255, 235, 215),rgb(255, 134, 195));
+    color: whitesmoke;
+    text-shadow: 0 0 10px rgb(117, 255, 186);
+    animation-delay: 0.7s;
+}
+
+
+.vieinoiserie_slot{
+
+    background-image: linear-gradient(rgb(245, 255, 219),rgb(117, 255, 186));
+    color: whitesmoke;
+    text-shadow: 0 0 10px rgb(255, 134, 195);
+    animation-delay: 1.7s;
+
+}
+
+.vieinoiserie_slot:hover .vieinoiserie_slot, .boulangerie_slot:hover .boulangerie_slot, .patisserie_slot:hover .patisserie_slot {
+
+    border: 5px solid rgb(255, 231, 221);
+    transition: 0.4s;
+
+}
+
+article h1 {
+    font-family: "Bassignani";
+    font-size: 80px;
+}
+
+article a {
+    font-family: "Bassignani";
+    text-shadow: 0 0 10px rgb(255, 232, 170);
+    font-size: 44px;
+
+}
+
+.enseigne {
+
+    font-family: "Bassignani";
+    text-shadow: 0 0 10px rgb(117, 255, 186);
+    background-color: rgb(255, 247, 243);
+    text-align: center;
+    color: white;
+
+}
+.enseigne h1 {
+    font-size: 80px;
+}
