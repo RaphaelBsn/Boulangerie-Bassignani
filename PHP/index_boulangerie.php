@@ -1,9 +1,33 @@
 <!DOCTYPE html>
+
+<?php
+date_default_timezone_set('Europe/Paris');
+
+    if( date("l") == 'Monday') {
+        $jour = "Lundi : 6:30 - 20:00";
+    } else if ( date("l") == 'Tuesday') {
+        $jour = "Mardi : 6:30 - 15:00";
+    } else if ( date("l") == 'Wednesday') {
+        $jour = "Mercredi : Fermé";
+    } else if ( date("l") == 'Thursday') {
+        $jour = "Jeudi : 6:30 - 20:00";
+    } else if ( date("l") == 'Friday') {
+        $jour = "Vendredi : 6:30 - 20:00";
+    } else if ( date("l") == 'Saturday') {
+        $jour = "Samedi : 6:30 - 20:00";
+    } else if ( date("l") == 'Sunday') {
+        $jour = "Dimanche : 6:30 - 20:00";
+    }
+
+?>
+
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="../Js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="../Js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="../CSS/bootstrap.min.css">
     <link rel="stylesheet" href="../CSS/boulangerie.css">
     <link rel="stylesheet" href="../CSS/animate.css">
@@ -54,12 +78,11 @@
                             <img class="card-img-top" src="../IMG/enseigne.png" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title">Boulangerie Bassignani</h5>
-                                <p class="card-text">Adresse : </p>
+                                <p class="card-text"><u>Adresse :</u> 6 Rue de Paris, 91100 Corbeil-Essonnes</p>
                             </div>
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item">Horaires : #Menu déroulant date par jours à venir </li>
-                                <li class="list-group-item">Téléphone : 01 64 96 28 58</li>
-                                <li class="list-group-item">Vestibulum at eros</li>
+                                <li class="list-group-item"> <u> Téléphone :</u> 01 64 96 28 58</li>
+                                <li class="list-group-item"><u>Horaire :</u> <?php echo $jour ?></li>
                             </ul>
                             <!-- <div class="card-body">
                                 <a href="#" class="card-link">Card link</a>
@@ -71,8 +94,8 @@
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d697.168229227168!2d2.4668797276682577!3d48.60515263154661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e5e7304bd142c5%3A0x77011e314fd3a031!2sBoulangerie+Bassignani!5e0!3m2!1sfr!2sfr!4v1544459764518" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
                     </div>
                 </div>
-            </article>  
-        </div>
+            </article>
+
 
 
     </div>
