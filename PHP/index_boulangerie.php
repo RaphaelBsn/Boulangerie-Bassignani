@@ -3,21 +3,21 @@
 <?php
 date_default_timezone_set('Europe/Paris');
 
-    if( date("l") == 'Monday') {
-        $jour = "Lundi : 6:30 - 20:00";
-    } else if ( date("l") == 'Tuesday') {
-        $jour = "Mardi : 6:30 - 15:00";
-    } else if ( date("l") == 'Wednesday') {
-        $jour = "Mercredi : Fermé";
-    } else if ( date("l") == 'Thursday') {
-        $jour = "Jeudi : 6:30 - 20:00";
-    } else if ( date("l") == 'Friday') {
-        $jour = "Vendredi : 6:30 - 20:00";
-    } else if ( date("l") == 'Saturday') {
-        $jour = "Samedi : 6:30 - 20:00";
-    } else if ( date("l") == 'Sunday') {
-        $jour = "Dimanche : 6:30 - 20:00";
-    }
+if (date("l") == 'Monday') {
+    $jour = "Lundi : 6:30 - 20:00";
+} else if (date("l") == 'Tuesday') {
+    $jour = "Mardi : 6:30 - 15:00";
+} else if (date("l") == 'Wednesday') {
+    $jour = "Mercredi : Fermé";
+} else if (date("l") == 'Thursday') {
+    $jour = "Jeudi : 6:30 - 20:00";
+} else if (date("l") == 'Friday') {
+    $jour = "Vendredi : 6:30 - 20:00";
+} else if (date("l") == 'Saturday') {
+    $jour = "Samedi : 6:30 - 20:00";
+} else if (date("l") == 'Sunday') {
+    $jour = "Dimanche : 6:30 - 20:00";
+}
 
 ?>
 
@@ -43,6 +43,7 @@ date_default_timezone_set('Europe/Paris');
     </div>
     <div class="row">
         <div class="col-md-2">
+           <br> <h1>~ Boulangerie ~</h1> <br>
             <nav class="nav flex-column" id="navbar">
                 <a class="nav-link active" href="#intro">Introduction</a> <br>
                 <a class="nav-link" href="#produits">Produits</a> <br>
@@ -62,18 +63,67 @@ date_default_timezone_set('Europe/Paris');
             </article> <br>
             <article>
                 <header> <h1><a href="#" id="produits">#</a> Produits</h1></header> <hr>
-                <p>
-                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium animi debitis laboriosam cumque! Excepturi obcaecati, beatae, iste tenetur et nemo blanditiis ut odio minus eligendi libero laborum necessitatibus ab porro?</span>
-                    <span>Distinctio sit nam perferendis, minus voluptate magni, dolores pariatur possimus expedita fugit ut non quos corporis molestiae voluptatibus cumque et repellendus, quidem assumenda quas quaerat vero! Qui in sint suscipit.</span>
-                    <span>Aliquid, porro, nobis beatae exercitationem similique fugiat, veniam error dolores magnam maiores quae aliquam consequuntur dolor itaque ex quisquam rem esse aperiam id sapiente? Totam possimus rerum nobis explicabo magnam.</span>
-                    <span>Error qui asperiores quos vitae sapiente earum, eveniet alias dolorum accusamus ullam at ducimus voluptates voluptatibus delectus totam! Blanditiis vitae nulla cupiditate, repudiandae eos molestiae enim at sapiente quisquam repellendus?</span>
-                    <span>Eveniet quas sunt deleniti enim repudiandae tempora. Nostrum odio tempora voluptates, eius natus ratione ut deserunt cum veniam doloremque officiis aperiam dignissimos explicabo praesentium sapiente facilis, facere, ipsam quasi fuga!</span>
-                </p>
+                <div class="row">
+                    <div class="card-group">
+                        <div class="card">
+                            <img class="card-img-top" src="../IMG/pain1.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="../IMG/pain2.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="../IMG/pain3.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div> <br>
+                <div class="row">
+                <div class="card-group">
+                        <div class="card">
+                            <img class="card-img-top" src="../IMG/pain4.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="../IMG/pain5.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="../IMG/pain6.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </article> <br>
             <article>
                 <header> <h1><a href="#" id="contact">#</a> Contacts </h1> </header> <hr>
                 <div class="row">
-                    <div class="col">
+                    <div class="col-md-6">
                         <div class="card" style="width: 20rem;">
                             <img class="card-img-top" src="../IMG/enseigne.png" alt="Card image cap">
                             <div class="card-body">
@@ -90,8 +140,8 @@ date_default_timezone_set('Europe/Paris');
                             </div> -->
                         </div>
                     </div>
-                    <div class="col">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d697.168229227168!2d2.4668797276682577!3d48.60515263154661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e5e7304bd142c5%3A0x77011e314fd3a031!2sBoulangerie+Bassignani!5e0!3m2!1sfr!2sfr!4v1544459764518" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <div class="col-md-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d697.168229227168!2d2.4668797276682577!3d48.60515263154661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e5e7304bd142c5%3A0x77011e314fd3a031!2sBoulangerie+Bassignani!5e0!3m2!1sfr!2sfr!4v1544459764518" width="100%" height="100%" frameborder="0" style="border:1" allowfullscreen></iframe>
                     </div>
                 </div>
             </article>
